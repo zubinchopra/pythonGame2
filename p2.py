@@ -66,7 +66,6 @@ def evaluate(index):
     global sum;
     option = OPERATORS[index][:1]
     del OPERATORS[index]
-    print(option)
     if(option == "S"):
         option = "+"
     elif(option == "A"):
@@ -81,7 +80,7 @@ def evaluate(index):
             if(lhs[num] == value[index] and lhs[num + 1] == option):
                 sign = lhs.pop(num + 1)
                 number = float(lhs[num])
-                print(value.pop(index))
+                value.pop(index)
                 if(sign == '/' and lhs[num - 1] == '-'):
                     for i in range (0, len(lhs) - 1):
                         if(lhs[i] == '+'):
@@ -115,8 +114,6 @@ def evaluate(index):
             else:
                 value.pop(index)
                 sum = sum + number;
-        print(lhs)
-        print("sum = ", sum)
 
 
 
@@ -143,12 +140,14 @@ def use_BRIFL_SVG():
   from  Missionaries_SVG_VIS_FOR_BRIFL import render_state
 
 operatorFunc()
-evaluate(0)
+evaluate(2)
 
 operatorFunc()
 evaluate(1)
 
 operatorFunc()
 evaluate(0)
+
+print(sum)
 print(OPERATORS)
 print(value)
