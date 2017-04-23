@@ -1,7 +1,7 @@
 SOLUZION_VERSION = "1.0"
 PROBLEM_NAME = "Linear Equation Solver"
 PROBLEM_VERSION = "1.1"
-PROBLEM_AUTHORS = ['Anoop Narra, Zubin']
+PROBLEM_AUTHORS = ['Anoop Narra, Zubin Chopra']
 PROBLEM_CREATION_DATE = "20-APR-2017"
 
 PROBLEM_DESC=\
