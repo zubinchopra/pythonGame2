@@ -107,6 +107,7 @@ def evaluate(index):
             else:
                 value.pop(index)
                 sum = sum + number;
+    operatorFunc()
 
 
 
@@ -135,10 +136,8 @@ def use_BRIFL_SVG():
 operatorFunc()
 evaluate(2)
 
-operatorFunc()
 evaluate(1)
 
-operatorFunc()
 evaluate(0)
 
 print(sum)
