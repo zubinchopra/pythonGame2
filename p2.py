@@ -5,16 +5,9 @@ PROBLEM_AUTHORS = ['Anoop Narra, Zubin Chopra']
 PROBLEM_CREATION_DATE = "20-APR-2017"
 
 PROBLEM_DESC=\
- '''The <b>"Missionaries and Cannibals"</b> problem is a traditional puzzle
-in which the player starts off with three missionaries and three cannibals
-on the left bank of a river.  The object is to execute a sequence of legal
-moves that transfers them all to the right bank of the river.  In this
-version, there is a boat that can carry at most three people, and one of
-them must be a missionary to steer the boat.  It is forbidden to ever
-have one or two missionaries outnumbered by cannibals, either on the
-left bank, right bank, or in the boat.  In the formulation presented
-here, the computer will not let you make a move to such a forbidden situation, and it
-will only show you moves that could be executed "safely."
+ '''The following problem will help the user in solving a simple linear
+    equation. The solutions will use the SOLUZION format and works with
+    the given demo equation."
 '''
 
 
